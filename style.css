@@ -24,10 +24,10 @@ body {
   color: #292623;
   font-size: 20px;
   text-align: center;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: none;
+  transform: translate(-50%, -50%);
 }
 
 #time {
