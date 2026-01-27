@@ -12,7 +12,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
-  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+  font-family: Lyon-Text, Georgia, YuMincho, "Times New Roman", serif !important;
 }
 
 #text {
