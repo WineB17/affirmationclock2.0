@@ -152,7 +152,7 @@ cursor:hand;
   margin: 10px;
   border-radius: 6px;
   width: 100%;
-  font-family: Karla;
+  font-family: inherit;
   font-size: 16px;
   cursor: inherit;
   line-height: inherit;
