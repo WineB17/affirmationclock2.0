@@ -15,7 +15,7 @@ const customTextInput = document.getElementById("custom-text");
 function loadSettings() {
   const backgroundColor = localStorage.getItem('background-color') || '#FFFFFF';
   const fontColor = localStorage.getItem('font-color') || '#EB5757';
-  const fontFamily = localStorage.getItem('font-family') || 'Grotesk';
+  const fontFamily = localStorage.getItem('font-family') || 'sans-serif';
   const customText = localStorage.getItem('custom-text') || 'Oh, look at the time!';
   
   document.body.style.backgroundColor = backgroundColor;
