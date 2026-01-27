@@ -12,7 +12,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
-  font-family: "Times New Roman", serif !important;
+  font-family: "Times New Roman", Times, serif !important;
 }
 
 #text {
