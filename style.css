@@ -20,7 +20,7 @@ body {
   font-weight: 500;
 }
 #clock {
-  padding: 20px;
+  padding: 10px;
   color: #292623;
   font-size: 20px;
   text-align: center;
@@ -233,7 +233,7 @@ cursor:hand;
 /* Large screens (desktops, 768px and up) */
 @media only screen and (min-width: 769px) {
   #clock {
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
     text-align: center;
     top: 50%;
