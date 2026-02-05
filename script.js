@@ -13,7 +13,7 @@ const customTextInput = document.getElementById("custom-text");
 
 // Load saved settings
 function loadSettings() {
-  const backgroundColor = localStorage.getItem('background-color') || '#FFFFFF';
+  const backgroundColor = localStorage.getItem('background-color') || 'transparent';
   const fontColor = localStorage.getItem('font-color') || '#EB5757';
   const fontFamily = localStorage.getItem('font-family') || '"Times New Roman", Times, serif';
   const customText = localStorage.getItem('custom-text') || 'Oh, look at the time!';
