@@ -13,8 +13,9 @@ const customTextInput = document.getElementById("custom-text");
 
 // Load saved settings
 function loadSettings() {
-  if (localStorage.getItem('background-color') === '#FFFFFF') localStorage.removeItem('background-color');
-  const backgroundColor = localStorage.getItem('background-color') === '#FFFFFF' ? 'transparent' : (localStorage.getItem('background-color') || 'transparent');
+  const savedBg = localStorage.getItem('background-color');
+  if (savedBg === '#FFFFFF' || savedBg === '#ffffff') localStorage.removeItem('background-color');
+  const backgroundColor = (savedBg === '#FFFFFF' || savedBg === '#ffffff') ? 'transparent' : (savedBg || 'transparent');
   const fontColor = localStorage.getItem('font-color') || '#EB5757';
   const fontFamily = localStorage.getItem('font-family') || '"Times New Roman", Times, serif';
   const customText = localStorage.getItem('custom-text') || 'Oh, look at the time!';
