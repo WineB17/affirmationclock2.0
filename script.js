@@ -25,7 +25,6 @@ function loadSettings() {
     document.body.style.backgroundColor = 'transparent'; 
   }
   
-  document.body.style.backgroundColor = backgroundColor;
   text.style.color = fontColor;
   time.style.color = fontColor;
   ampm.style.color = fontColor;
