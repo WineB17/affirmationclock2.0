@@ -18,7 +18,7 @@ function loadSettings() {
   const fontFamily = localStorage.getItem('font-family') || '"Times New Roman", Times, serif';
   const customText = localStorage.getItem('custom-text') || 'Oh, look at the time!';
   
-  document.body.style.backgroundColor = backgroundColor;
+  document.body.style.backgroundColor = 'transparent';
   text.style.color = fontColor;
   time.style.color = fontColor;
   ampm.style.color = fontColor;
