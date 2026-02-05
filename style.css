@@ -11,11 +11,11 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: "Times New Roman", Times, serif !important;
-  background-color: transparent !important;
+  background-color: #FFF;
 }
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #191919;
+body {
+  background-color: #191919;
   }
 }
 #text {
