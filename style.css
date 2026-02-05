@@ -100,6 +100,17 @@ cursor:hand;
   border-radius: 10px;
   position: relative;
 }
+@media (prefers-color-scheme: dark) {
+  .modal-content {
+    background-color: #2f2f2f; 
+    color: white;
+  }
+  .modal-content input, .modal-content select {
+    background-color: #3f3f3f;
+    color: white;
+    border: 1px solid #444;
+  }
+}
 
 .modal-wrapper {
   padding: 10px;
