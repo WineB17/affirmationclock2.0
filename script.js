@@ -17,6 +17,13 @@ function loadSettings() {
   const fontColor = localStorage.getItem('font-color') || '#EB5757';
   const fontFamily = localStorage.getItem('font-family') || '"Times New Roman", Times, serif';
   const customText = localStorage.getItem('custom-text') || 'Oh, look at the time!';
+  const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  if (isDarkMode) {
+    document.body.style.backgroundColor = '#191919'; 
+  } else {
+    document.body.style.backgroundColor = 'transparent'; 
+  }
   
   document.body.style.backgroundColor = backgroundColor;
   text.style.color = fontColor;
